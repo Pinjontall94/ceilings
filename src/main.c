@@ -32,9 +32,9 @@ bool print_ascii_file(const char *filename)
 
 int main(void) 
 {
-    if (!print_ascii_file("../assets/asciilogo.txt")) 
+    if (!print_ascii_file("assets/asciilogo.txt")) 
         return 1;
-    if (!print_ascii_file("../assets/asciiart3.txt")) 
+    if (!print_ascii_file("assets/asciiart3.txt")) 
         return 1;
     print_div_line('=', 80);
     int water_freezing_point = convert_celsius_to_fahrenheit(0);

@@ -1,4 +1,4 @@
-BINARY=./bin/main
+BINARY=./ceilings
 INCLUDEDIRS=. ./include
 SRCDIRS=. ./src ./lib
 
