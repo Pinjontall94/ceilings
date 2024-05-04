@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  The Zig compiler provides "builtin" functions. You've already
  gotten used to seeing an @import() at the top of every
  Ziglings exercise.

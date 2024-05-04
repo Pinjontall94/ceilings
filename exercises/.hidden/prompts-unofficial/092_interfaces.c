@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Remember our ant and bee simulator constructed with unions
  back in exercises 55 and 56? There, we demonstrated that
  unions allow us to treat different data types in a uniform

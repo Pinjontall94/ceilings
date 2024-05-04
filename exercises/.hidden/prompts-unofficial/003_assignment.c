@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  It seems we got a little carried away making everything "const u8"!
      "const" values cannot change.
      "u"     types are "unsigned" and cannot store negative values.

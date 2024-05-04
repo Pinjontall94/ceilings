@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Check this out:
      var foo: u8 = 5;      // foo is 5
      var bar: *u8 = &foo;  // bar is a pointer

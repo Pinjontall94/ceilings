@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Prerequisite :
     - exercise/106_files.zig, or
     - create a file {project_root}/output/zigling.txt

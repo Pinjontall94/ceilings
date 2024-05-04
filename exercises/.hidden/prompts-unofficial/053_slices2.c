@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  You are perhaps tempted to try slices on strings? They're arrays of
  u8 characters after all, right? Slices on strings work great.
  There's just one catch: don't forget that Zig string literals are

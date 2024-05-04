@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Help! Evil alien creatures have hidden eggs all over the Earth
  and they're starting to hatch!
  Before you jump into battle, you'll need to know three things:

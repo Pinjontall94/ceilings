@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  The 'for' loop is not just limited to looping over one or two
  items. Let's try an example with a whole bunch!
  But first, there's one last thing we've avoided mentioning

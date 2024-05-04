@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Zig 'while' statements create a loop that runs while the
  condition is true. This runs once (at most):
      while (condition) {

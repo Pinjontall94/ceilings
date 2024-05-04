@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  We've seen that passing arrays around can be awkward. Perhaps you
  remember a particularly horrendous function definition from quiz3?
  This function can only take arrays that are exactly 4 items long!

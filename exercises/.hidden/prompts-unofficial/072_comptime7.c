@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  There is also an 'inline while'. Just like 'inline for', it
  loops at compile time, allowing you to do all sorts of
  interesting things not possible at runtime. See if you can

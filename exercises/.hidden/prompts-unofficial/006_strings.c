@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Now that we've learned about arrays, we can talk about strings.
  We've already seen Zig string literals: "Hello world.\n"
  Zig stores strings as arrays of bytes.

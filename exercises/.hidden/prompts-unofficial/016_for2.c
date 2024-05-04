@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  For loops also let you use the "index" of the iteration, a number
  that counts up with each iteration. To access the index of iteration,
  specify a second condition as well as a second capture value.

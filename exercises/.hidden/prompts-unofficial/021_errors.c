@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Believe it or not, sometimes things go wrong in programs.
  In Zig, an error is a value. Errors are named so we can identify
  things that can go wrong. Errors are created in "error sets", which

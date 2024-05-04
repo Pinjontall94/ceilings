@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Let's revisit the very first error exercise. This time, we're going to
  look at an error-handling variation of the "if" statement.
      if (foo) |value| {

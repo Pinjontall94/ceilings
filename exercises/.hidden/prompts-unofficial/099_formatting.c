@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Terminals have come a long way over the years. Starting with
  monochrome lines on flickering CRT monitors and continuously
  improving to today's modern terminal emulators with sharp

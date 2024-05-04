@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Let's learn some array basics. Arrays are declared with:
    var foo: [3]u32 = [3]u32{ 42, 108, 5423 };
  When Zig can infer the size of the array, you can use '_' for the

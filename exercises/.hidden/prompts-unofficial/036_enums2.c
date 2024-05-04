@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Enums are really just a set of numbers. You can leave the
  numbering up to the compiler, or you can assign them
  explicitly. You can even specify the numeric type used.

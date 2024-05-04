@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  You can also put 'comptime' before a function parameter to
  enforce that the argument passed to the function must be known
  at compile time. We've actually been using a function like

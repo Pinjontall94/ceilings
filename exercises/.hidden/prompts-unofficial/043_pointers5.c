@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  As with integers, you can pass a pointer to a struct when you
  will wish to modify that struct. Pointers are also useful when
  you need to store a reference to a struct (a "link" to it).

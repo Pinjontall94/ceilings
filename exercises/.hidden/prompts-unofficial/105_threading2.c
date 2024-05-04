@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Now that we are familiar with the principles of multi threading, we
  boldly venture into a practical example from mathematics.
  We will determine the circle number PI with sufficient accuracy.

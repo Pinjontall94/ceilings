@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Loop bodies are blocks, which are also expressions. We've seen
  how they can be used to evaluate and return values. To further
  expand on this concept, it turns out we can also give names to

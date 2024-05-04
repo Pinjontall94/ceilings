@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Zig has support for IEEE-754 floating-point numbers in these
  specific sizes: f16, f32, f64, f80, and f128. Floating point
  literals may be written in the same ways as integers but also

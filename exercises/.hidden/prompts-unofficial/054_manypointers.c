@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  You can also make pointers to multiple items without using a slice.
      var foo: [4]u8 = [4]u8{ 1, 2, 3, 4 };
      var foo_slice: []u8 = foo[0..];

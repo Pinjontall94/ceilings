@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Quiz Time!
  Let's revisit the Hermit's Map from Quiz 7.
  Oh, don't worry, it's not nearly as big without all the

@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Sometimes you know that a variable might hold a value or
  it might not. Zig has a neat way of expressing this idea
  called Optionals. An optional type just has a '?' like this:

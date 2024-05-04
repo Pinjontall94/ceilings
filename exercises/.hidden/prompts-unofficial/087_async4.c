@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  It has probably not escaped your attention that we are no
  longer capturing a return value from foo() because the 'async'
  keyword returns the frame instead.

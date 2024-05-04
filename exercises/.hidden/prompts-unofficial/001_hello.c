@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Oh no, this is supposed to print "Hello world!" but it needs
  your help.
  Zig functions are private by default but the main() function

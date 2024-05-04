@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  When Andrew Kelley announced the idea of a new programming language
  - namely Zig - in his blog on February 8, 2016, he also immediately
  stated his ambitious goal: to replace the C language!

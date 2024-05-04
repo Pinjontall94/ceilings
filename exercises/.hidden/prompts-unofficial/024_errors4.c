@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Using `catch` to replace an error with a default value is a bit
  of a blunt instrument since it doesn't matter what the error is.
  Catch lets us capture the error value and perform additional

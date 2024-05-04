@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  So, 'suspend' returns control to the place from which it was
  called (the "call site"). How do we give control back to the
  suspended function?

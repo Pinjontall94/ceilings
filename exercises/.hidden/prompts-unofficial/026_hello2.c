@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Great news! Now we know enough to understand a "real" Hello World
  program in Zig - one that uses the system Standard Out resource...which
  can fail!

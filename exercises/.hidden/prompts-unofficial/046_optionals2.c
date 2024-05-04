@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Now that we have optional types, we can apply them to structs.
  The last time we checked in with our elephants, we had to link
  all three of them together in a "circle" so that the last tail

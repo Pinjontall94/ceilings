@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  The Zig language is in rapid development and continuously
  improves the language constructs. Ziglings evolves with it.
  Until version 0.11, Zig's 'for' loops did not directly

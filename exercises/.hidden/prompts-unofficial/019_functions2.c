@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Now let's create a function that takes a parameter. Here's an
  example that takes two parameters. As you can see, parameters
  are declared just like any other types ("name": "type"):

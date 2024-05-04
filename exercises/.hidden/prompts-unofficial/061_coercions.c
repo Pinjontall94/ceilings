@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  It'll only take us a moment to learn the Zig type coercion
  rules because they're quite logical.
  1. Types can always be made _more_ restrictive.

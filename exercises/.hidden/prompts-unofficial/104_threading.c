@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Whenever there is a lot to calculate, the question arises as to how
  tasks can be carried out simultaneously. We have already learned about
  one possibility, namely asynchronous processes, in Exercises 84-91.

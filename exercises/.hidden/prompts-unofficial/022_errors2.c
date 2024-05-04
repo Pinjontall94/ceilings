@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  A common case for errors is a situation where we're expecting to
  have a value OR something has gone wrong. Take this example:
      var text: Text = getText("foo.txt");

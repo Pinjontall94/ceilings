@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Now that we've seen how methods work, let's see if we can help
  our elephants out a bit more with some Elephant methods.
  This function visits all elephants once, starting with the

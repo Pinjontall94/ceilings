@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  We've seen that Zig implicitly performs some evaluations at
  compile time. But sometimes you'll want to explicitly request
  compile time evaluation. For that, we have a new keyword:

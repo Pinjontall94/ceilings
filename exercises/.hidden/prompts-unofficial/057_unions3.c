@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  With tagged unions, it gets EVEN BETTER! If you don't have a
  need for a separate enum, you can define an inferred enum with
  your union all in one place. Just use the 'enum' keyword in

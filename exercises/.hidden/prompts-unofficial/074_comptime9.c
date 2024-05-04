@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  In addition to knowing when to use the 'comptime' keyword,
  it's also good to know when you DON'T need it.
  The following contexts are already IMPLICITLY evaluated at

@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Sure, we can solve our async value problem with a global
  variable. But this hardly seems like an ideal solution.
  So how do we REALLY get return values from async functions?

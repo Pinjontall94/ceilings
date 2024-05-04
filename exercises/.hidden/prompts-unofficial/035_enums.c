@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Remember that little mathematical virtual machine we made using the
  "unreachable" statement?  Well, there were two problems with the
  way we were using op codes:

@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  It is really quite inconvenient having to manually keep track
  of the active field in our union, isn't it?
  Thankfully, Zig also has "tagged unions", which allow us to

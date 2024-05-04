@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Oops! This program is supposed to print a line like our Hello World
  example. But we forgot how to import the Zig Standard Library.
  The @import() function is built into Zig. It returns a value which

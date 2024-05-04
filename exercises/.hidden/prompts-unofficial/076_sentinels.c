@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  A sentinel value indicates the end of data. Let's imagine a
  sequence of lowercase letters where uppercase 'S' is the
  sentinel, indicating the end of the sequence:

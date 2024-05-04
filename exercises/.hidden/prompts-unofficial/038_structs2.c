@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Grouping values in structs is not merely convenient. It also allows
  us to treat the values as a single item when storing them, passing
  them to functions, etc.

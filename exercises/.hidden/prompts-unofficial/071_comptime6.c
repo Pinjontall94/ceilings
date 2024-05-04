@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  There have been several instances where it would have been
  nice to use loops in our programs, but we couldn't because the
  things we were trying to do could only be done at compile

@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Let's see if we can make use of some of the things we've learned so far.
  We'll create two functions: one that contains a "for" loop and one
  that contains a "while" loop.

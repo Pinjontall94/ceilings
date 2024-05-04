@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
     "We live on a placid island of ignorance in the midst
      of black seas of infinity, and it was not meant that
      we should voyage far."

@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Often, C functions are used where no equivalent Zig function exists
  yet. Okay, that's getting less and less. ;-)
  Since the integration of a C function is very simple, as already

@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  "Compile time" is a program's environment while it is being
  compiled. In contrast, "run time" is the environment while the
  compiled program is executing (traditionally as machine code

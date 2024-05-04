@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Being able to pass types to functions at compile time lets us
  generate code that works with multiple types. But it doesn't
  help us pass VALUES of different types to a function.

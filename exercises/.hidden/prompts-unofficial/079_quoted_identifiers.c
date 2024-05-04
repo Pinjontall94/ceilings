@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Sometimes you need to create an identifier that will not, for
  whatever reason, play by the naming rules:
      const 55_cows: i32 = 55; // ILLEGAL: starts with a number

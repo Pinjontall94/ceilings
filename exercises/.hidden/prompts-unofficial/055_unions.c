@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  A union lets you store different types and sizes of data at
  the same memory address. How is this possible? The compiler
  sets aside enough memory for the largest thing you might want

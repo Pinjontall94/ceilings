@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  One of the more common uses of 'comptime' function parameters is
  passing a type to a function:
      fn foo(comptime MyType: type) void { ... }

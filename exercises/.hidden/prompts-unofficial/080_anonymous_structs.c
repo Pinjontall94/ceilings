@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Struct types are always "anonymous" until we give them a name:
      struct {};
  So far, we've been giving struct types a name like so:

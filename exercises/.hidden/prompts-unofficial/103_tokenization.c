@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  The functionality of the standard library is becoming increasingly
  important in Zig. First of all, it is helpful to take a look at how
  the individual functions are implemented. Because this is wonderfully

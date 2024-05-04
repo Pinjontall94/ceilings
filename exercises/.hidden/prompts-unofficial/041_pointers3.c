@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  The tricky part is that the pointer's mutability (var vs const) refers
  to the ability to change what the pointer POINTS TO, not the ability
  to change the VALUE at that location!

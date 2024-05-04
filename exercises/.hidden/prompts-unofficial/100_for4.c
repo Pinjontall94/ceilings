@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  We've seen that the 'for' loop can let us perform some action
  for every item in an array or slice.
  More recently, we discovered that it supports ranges to

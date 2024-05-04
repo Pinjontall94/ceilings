@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Functions! We've already created lots of functions called 'main()'. Now let's
  do something different:
      fn foo(n: u8) u8 {

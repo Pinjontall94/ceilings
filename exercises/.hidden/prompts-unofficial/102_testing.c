@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  A big advantage of Zig is the integration of its own test system.
  This allows the philosophy of Test Driven Development (TDD) to be
  implemented perfectly. Zig even goes one step further than other

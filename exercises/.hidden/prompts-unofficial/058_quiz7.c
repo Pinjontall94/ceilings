@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  We've absorbed a lot of information about the variations of types
  we can use in Zig. Roughly, in order we have:
                           u8  single item

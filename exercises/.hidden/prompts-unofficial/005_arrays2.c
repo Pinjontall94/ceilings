@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Zig has some fun array operators.
  You can use '++' to concatenate two arrays:
    const a = [_]u8{ 1,2 };

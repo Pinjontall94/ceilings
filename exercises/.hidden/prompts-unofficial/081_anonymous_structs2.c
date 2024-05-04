@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  An anonymous struct value LITERAL (not to be confused with a
  struct TYPE) uses '.{}' syntax:
      .{

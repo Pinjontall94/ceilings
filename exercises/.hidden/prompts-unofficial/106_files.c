@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  Until now, we've only been printing our output in the console,
  which is good enough for fighting alien and hermit bookkeeping.
  However, many other task require some interaction with the file system,

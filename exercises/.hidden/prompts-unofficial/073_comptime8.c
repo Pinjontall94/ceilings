@@ -1,3 +1,7 @@
+THIS FILE IS FROM ZIGLINGS AS A REFERENCE AND IS NOT MY CODE.
+IT WILL BE REMOVED PRIOR TO RELEASE.
+================================================================================
+
  As a matter of fact, you can put 'comptime' in front of any
  expression to force it to be run at compile time.
  Execute a function:
