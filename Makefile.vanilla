@@ -21,7 +21,6 @@ DEPFILES=$(patsubst %.c,%.d,$(SRCFILES))
 all: $(BINARY)
 
 $(BINARY): $(OBJECTS)
-	[ -d "bin" ] || mkdir bin
 	$(CC) $(LDFLAGS) $(LDLIBS) -o $@ $^
 
 # Only want the first dependency here, so use $< instead of $^
@@ -32,7 +31,6 @@ $(BINARY): $(OBJECTS)
 
 clean:
 	rm -rf $(BINARY) $(OBJECTS) $(DEPFILES)
-	[ -f "$(BINARY)" ] || rmdir bin
 
 run: all
 	$(BINARY)
