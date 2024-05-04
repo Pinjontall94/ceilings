@@ -1,10 +1,11 @@
-const Builder = @import("std").build.Builder;
+const Builder = @import("std").Build;
 
 pub fn build(b: *Builder) void {
     const exe = b.addExecutable(.{
         .name = "app",
         .link_libc = true,
         .root_source_file = .{ .path = "src/main.c" },
+        .target = b.host,
     });
 
     exe.addIncludePath(.{ .path = "/usr/local/include" });
