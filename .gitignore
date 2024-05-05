@@ -54,3 +54,4 @@ bin
 build
 zig-*
 ceilings
+Makefile

@@ -2,22 +2,88 @@
 
 ## Structure
 What follows is my problemwise notes as I progress through ziglings, summarizing
-for each challenge what the equivalent in C would be.
+for each challenge what the equivalent in C would be.  
 
-Each subheading will describe in brief what the challenge is and should be, if
-directly applicable to C. Failing that, the subheading will be the zig challenge
-and subsequent notes underneath will pertain to C implementation particularities
+Each subheading will describe in brief what the challenge is and should be,
+if directly applicable to C. Failing that, the subheading will be the zig
+challenge and subsequent notes underneath will pertain to C
+implementation particularities.   
 
 Challenges not applicable to C with any reasonable amount of effort will be
 either be denoted N/A or designated an alternate challenge proposal.
 
 ## Exercises
 
-### 1. Public Function
+1. Public Function
 Make a failing build of a public function work as such (req'd in zig, but not C).
 Could have a small project that exports a greeter?
 
-### 2. Import std lib to fix hello world
+2. Import std lib to fix hello world
+
+3. Assigning to constant, int bit-widths and un/signing
+    1. Trying to mutate a constant that needs to be a variable. 
+    2. Trying to initialize an u8 with too big a value or a negative value.
+    3. Maybe have something specific about how int and long aren't one size
+    everywhere? That's not the case in other systems languages and is an
+    important pecularity of C's ubiquity. Like, long long is stable but long
+    isn't, etc.
+
+4. Arrays
+    1. Inferred-length constant array of u8, trying to assign primes[0] = 2 
+    (constant and thus will fail). 
+    2. Store a value in an int[] into a constant int. 
+    3. Get the length of an array.
+    4. [author note] Print firstPrime, fourthPrime, primesLength with printf.
+
+5. Arrays2: Concat and Repeat
+    1. Concat an array. Note that these will happen at compile time,
+    not run time, so maybe the C example should use cpp macros for this.
+    Maybe concat {0xDE 0xAD} and {0xBE 0xEF} to {0xDE 0xAD 0xBE 0xEF}?
+    2. Repeat a bit pattern {11110000 10011111 10100101 10111010} * 420.
+    3. Use a for loop to print each element of the arrays to stdout.
+
+6. Strings (a.k.a. Character Arrays)
+    1. Pull a character from a string with an index and store in a const. 
+    2. Repeat a string "Bozo " * 3.
+    3. Concat strings "100 " + "Gecs".
+    4. [author note] Print the char and two strings. Talk about the
+    close relationship between chars and digits, as well as how to print a
+    formatted utf-8 character. (I don't know this either, will have to look it
+    up.)
+
+7. Multiline Strings
+    1. Print a multiline string.  
+    "I got lightning in my veins,
+     walk around like Frankenstein,
+     they did science on my face,
+     I'm the dumbest girl alive."
+
+8. 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Misc
 
