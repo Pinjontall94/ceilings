@@ -58,7 +58,12 @@ Could have a small project that exports a greeter?
      they did science on my face,
      I'm the dumbest girl alive."
 
-8. 
+8. Quiz 1
+    1. Introduce `size_t` on a const, with the problem being to make it a var.
+    2. Introduce initializing variables with NULL, and specifically {0} syntax
+    for initializing arrays (and which standard of C that was introduced in).
+    3. Use the `size_t` to index into a nonsense string, storing the right
+    chars in a new char array with a secret word revealed at the end.
     
 
 
