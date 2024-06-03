@@ -55,3 +55,5 @@ build
 zig-*
 ceilings
 Makefile
+/completed/
+/archive/

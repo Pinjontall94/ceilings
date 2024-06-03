@@ -1,10 +1,15 @@
 cmake_minimum_required(VERSION 3.9)
-project(ceilings) 
-add_executable(${PROJECT_NAME} src/main.c)
+project(app) 
+add_executable(${PROJECT_NAME} src/${PROJECT_NAME}.c)
 
-# Libraries to include for linking
-target_link_libraries(${PROJECT_NAME} -lconvert)
-include_directories(/usr/local/include)
+set(EXERCISES_PATH "exercises")
+set(CHAPTERS
+    01)
+
+include(CTest)
+foreach(chapter ${CHAPTERS})
+    add_subdirectory(${EXERCISES_PATH}/${chapter})
+endforeach()
 
 include(GNUInstallDirs)
 install(TARGETS ${PROJECT_NAME}
