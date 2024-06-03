@@ -117,7 +117,9 @@ readme the 3 supported ways of building ceilings:
 
 1. CMake (preferred)
 cmake -B build
-cmake --build build
+cd build
+make
+./app
 
 2. Makefile [not working, TBD]
 make -f Makefile.vanilla && ./ceilings
@@ -129,6 +131,6 @@ zig build run
 fish script to make populating tests easier
 ```fish
 for num in (seq 1 9)
-    cp -rp 0N 0$num
+    cp -rp 0N_example 0$num
 end
 ```
