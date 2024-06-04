@@ -52,7 +52,7 @@ Could have a small project that exports a greeter?
     up.)
 
 7. Multiline Strings
-    1. Print a multiline string.  
+    1. Print a multiline string.
     "I got lightning in my veins,
      walk around like Frankenstein,
      they did science on my face,
