@@ -2,7 +2,7 @@
 
 A code-along project in C in the vein of 
 [rustlings](https://rustlings.cool) and especially 
-[ziglings](https://ziglings.org).
+[ziglings](https://ziglings.org). Failing test cases of almost-working C code for a student to correct in order to pass the test suite called by the executable, learning C in the process!
 
 ## NOTE
 This project is very much a WIP and quite transparently indebted to the
