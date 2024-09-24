@@ -1,25 +1,18 @@
 cmake_minimum_required(VERSION 3.9)
 project(app) 
 add_executable(${PROJECT_NAME} src/${PROJECT_NAME}.c)
-
-if (MSVC)
-    # warning level 4 and all warnings as errors
-    add_compile_options(/W4 /WX)
-else()
-    # lots of warnings and all warnings as errors
-    add_compile_options(-Wall -Wextra -std=c2x)
-endif()
+add_compile_options(-Wall -Wextra -std=c2x)
 
 set(EXERCISES_PATH "exercises")
+set(TEST_PATH "test")
 set(CHAPTERS
+    01_EDIT_TO_START
     0N_example)
 
 include(CTest)
-foreach(chapter ${CHAPTERS})
-    add_subdirectory(${EXERCISES_PATH}/${chapter})
+foreach(_chapter ${CHAPTERS})
+    add_executable(${_chapter} ${EXERCISES_PATH}/${_chapter}.c)
+    add_executable(${_chapter}_test ${TEST_PATH}/${_chapter}_test.c)
+    add_test(NAME ${_chapter} 
+             COMMAND ${_chapter}_test)
 endforeach()
-
-include(GNUInstallDirs)
-install(TARGETS ${PROJECT_NAME}
-    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
-)

@@ -2,17 +2,18 @@
 #include <assert.h>
 #include <string.h>
 
-void test_hello_world()
+void test_app()
 {
+    const char expected[256] = "Hello, world! :)\n";
     char output[256] = {0};
-    FILE *fp = popen("./exercise01", "r");
+    FILE *fp = popen("./0N_example", "r");
     fgets(output, sizeof(output), fp);
-    assert(strcmp("Hello, world!\n", output) == 0);
+    assert(strcmp(expected, output) == 0);
     pclose(fp);
 }
 
 int main()
 {
-    test_hello_world();
+    test_app();
     return 0;
 }
