@@ -14,12 +14,12 @@ platforms. Please open an issue if something doesn't work! It really helps me :)
 This being said, the build.zig uses the host platform, and should therefore work
 on your machine as long as you're not cross compiling (and you're probably not).
 
-1. Makefile
-make -f Makefile.vanilla && ./ceilings
-
-2. CMake
-cmake -B .
-make && ./ceilings
-
-3. zig cc (RECOMMENDED)
-zig build run
+### Instructions
+1. Make a new folder called `build`
+2. Ensure you have [cmake](https://cmake.org/), GNU Make, and C compiler installed  
+(these last two are often in a package called "build-essentials" if not "make" and "gcc" separately)
+3. Open a terminal in the `build` folder and run `cmake ..`
+4. Run `make` in that same `build` folder
+5. Pay attention to the error, and fix the file `001_START_HERE.c` in the `exercises` folder
+6. Check your progress by running `./app` in the `build` folder
+7. Repeat steps 5 & 6 for each exercise until you complete Ceilings! :3
