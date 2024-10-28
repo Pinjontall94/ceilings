@@ -1,5 +1,10 @@
 # Notes
 
+## Executable
+Building ceilings from the src directory will create an executable that
+itself calls a shell function to build all c source files in the exercises
+dir. Whether that's done by CMake or zig cc I've not yet decided.
+
 ## Structure
 What follows is my problemwise notes as I progress through ziglings, summarizing
 for each challenge what the equivalent in C would be.  
@@ -52,7 +57,7 @@ Could have a small project that exports a greeter?
     up.)
 
 7. Multiline Strings
-    1. Print a multiline string.
+    1. Print a multiline string.  
     "I got lightning in my veins,
      walk around like Frankenstein,
      they did science on my face,
@@ -115,22 +120,12 @@ challenges too. At the same time, I'm not interested in teaching how to write
 complicated Makefiles, CMakeList.txts and build.zigs. For now, show in the
 readme the 3 supported ways of building ceilings:
 
-1. CMake (preferred)
-cmake -B build
-cd build
-make
-./app
-
-2. Makefile [not working, TBD]
+1. Makefile
 make -f Makefile.vanilla && ./ceilings
 
-3. zig cc [not working, TBD]
-zig build run
+2. CMake
+cmake -B .
+make && ./ceilings
 
-### Uncategorized notes & niceties
-fish script to make populating tests easier
-```fish
-for num in (seq 1 9)
-    cp -rp 0N_example 0$num
-end
-```
+3. zig cc
+zig build run

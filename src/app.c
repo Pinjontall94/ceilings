@@ -12,6 +12,21 @@
 #define ANSI_COLOR_CYAN		"\x1b[36m"
 #define ANSI_COLOR_RESET	"\x1b[0m"
 
+void print_div_line(const char character, const int length);
+void print_colored_div(const char *color, const char character, const int length);
+bool print_ascii_file(const char *filename);
+
+int main(void)
+{
+    // Print an ascii file, a div line, and call "make" as a shell command
+    if (!print_ascii_file("../assets/ascii_ceilings.txt"))
+        return 1;
+    print_div_line('=', 80);
+    const char command[] = "make";
+    system(command);
+    return 0;
+}
+
 void print_div_line(const char character, const int length)
 {
     // Prints a divider line with character specified and for a given length
@@ -44,17 +59,4 @@ bool print_ascii_file(const char *filename)
     return true;
 }
 
-void run_tests()
-{
-    const char command[] = "make test 2>/dev/null";
-    system(command);
-}
 
-int main(void)
-{
-    if (!print_ascii_file("../assets/ascii_ceilings.txt"))
-        return 1;
-    print_div_line('=', 80);
-    run_tests();
-    return 0;
-}

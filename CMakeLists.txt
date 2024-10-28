@@ -4,15 +4,13 @@ add_executable(${PROJECT_NAME} src/${PROJECT_NAME}.c)
 add_compile_options(-Wall -Wextra -std=c2x)
 
 set(EXERCISES_PATH "exercises")
-set(TEST_PATH "test")
 set(CHAPTERS
-    01_EDIT_TO_START
-    0N_example)
+    001_START_HERE
+    002_stdio
+    003_assignment
+    004_arrays
+    00N_example)
 
-include(CTest)
 foreach(_chapter ${CHAPTERS})
     add_executable(${_chapter} ${EXERCISES_PATH}/${_chapter}.c)
-    add_executable(${_chapter}_test ${TEST_PATH}/${_chapter}_test.c)
-    add_test(NAME ${_chapter} 
-             COMMAND ${_chapter}_test)
 endforeach()

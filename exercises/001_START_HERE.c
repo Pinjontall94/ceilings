@@ -5,8 +5,8 @@
  * (Hint: check line 11 and put the type before "main"
  */
 
-main()
+___ main()
 {
-    printf("Hello, world! :)\n");
+    printf("Hello world!\n");
     return 0;
 }
