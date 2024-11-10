@@ -12,9 +12,9 @@
 #define ANSI_COLOR_CYAN		"\x1b[36m"
 #define ANSI_COLOR_RESET	"\x1b[0m"
 
-void print_div_line(const char character, const int length);
-void print_colored_div(const char *color, const char character, const int length);
-bool print_ascii_file(const char *filename);
+void print_div_line(char const character, int const length);
+void print_colored_div(char const *color, char const character, int const length);
+bool print_ascii_file(char const *filename);
 
 int main(void)
 {
@@ -22,7 +22,7 @@ int main(void)
     if (!print_ascii_file("../assets/ascii_ceilings.txt"))
         return 1;
     print_div_line('=', 80);
-    const char command[] = "make";
+    char const command[] = "make";
     system(command);
     return 0;
 }
