@@ -7,9 +7,14 @@ set(EXERCISES_PATH "exercises")
 set(CHAPTERS
     001_START_HERE
     002_stdio
-    003_assignment
-    004_arrays
-    00N_example)
+    003_variables
+    004_loops
+    005_constants
+    006_bit_widths
+    007_getchar
+    008_getlines
+    009_bonus_emoji
+)
 
 foreach(_chapter ${CHAPTERS})
     add_executable(${_chapter} ${EXERCISES_PATH}/${_chapter}.c)
