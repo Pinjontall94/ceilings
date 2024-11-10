@@ -20,7 +20,7 @@
 // backwards compatible with compilers dating all the way back to the 70s.
 // I leave it up to you if that's awesome or terrifying ;)
 //
-// Your assignment: compile the code below both ways, in one shot and with
+// [Your assignment]: compile the code below both ways, in one shot and with
 // separate compiling and linking with the -c and -o flags!
 
 int main(void)
