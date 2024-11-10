@@ -1,131 +1,50 @@
-# Notes
+# Screw it
+C's not zig, even if they're both dialects in the sense of being fundamentally C ABI languages
 
-## Executable
-Building ceilings from the src directory will create an executable that
-itself calls a shell function to build all c source files in the exercises
-dir. Whether that's done by CMake or zig cc I've not yet decided.
+## New Structure (Based on K & R)
+1. C Hello World and compilation
+```c
+/* Let's start with the simplest possible C program, even simpler than
+ * "Hello world"! All valid C executables have an entrypoint function called
+ * "main" and all C functions follow the structure of:
+ * 
+ *     <type returned> <function name>(<arguments>)
+ *     {
+ *       <body>
+ *     }
+ *
+ * Unlike most modern languages, types are declared *before* functions,
+ * variables, etc. (all your func(arg: type) -> type is fancy future stuff ;3)
+ * With that in mind, see if you can finish the simplest possible C program!
+ * Check the next lesson for how to compile and run it :)
+ */
+___ main(void)
+{
+    return 0;
+}
+```
 
-## Structure
-What follows is my problemwise notes as I progress through ziglings, summarizing
-for each challenge what the equivalent in C would be.  
-
-Each subheading will describe in brief what the challenge is and should be,
-if directly applicable to C. Failing that, the subheading will be the zig
-challenge and subsequent notes underneath will pertain to C
-implementation particularities.   
-
-Challenges not applicable to C with any reasonable amount of effort will be
-either be denoted N/A or designated an alternate challenge proposal.
-
-## Exercises
-
-1. Public Function
-Make a failing build of a public function work as such (req'd in zig, but not C).
-Could have a small project that exports a greeter?
-
-2. Import std lib to fix hello world
-
-3. Assigning to constant, int bit-widths and un/signing
-    1. Trying to mutate a constant that needs to be a variable. 
-    2. Trying to initialize an u8 with too big a value or a negative value.
-    3. Maybe have something specific about how int and long aren't one size
-    everywhere? That's not the case in other systems languages and is an
-    important pecularity of C's ubiquity. Like, long long is stable but long
-    isn't, etc.
-
-4. Arrays
-    1. Inferred-length constant array of u8, trying to assign primes[0] = 2 
-    (constant and thus will fail). 
-    2. Store a value in an int[] into a constant int. 
-    3. Get the length of an array.
-    4. [author note] Print firstPrime, fourthPrime, primesLength with printf.
-
-5. Arrays2: Concat and Repeat
-    1. Concat an array. Note that these will happen at compile time,
-    not run time, so maybe the C example should use cpp macros for this.
-    Maybe concat {0xDE 0xAD} and {0xBE 0xEF} to {0xDE 0xAD 0xBE 0xEF}?
-    2. Repeat a bit pattern {11110000 10011111 10100101 10111010} * 420.
-    3. Use a for loop to print each element of the arrays to stdout.
-
-6. Strings (a.k.a. Character Arrays)
-    1. Pull a character from a string with an index and store in a const. 
-    2. Repeat a string "Bozo " * 3.
-    3. Concat strings "100 " + "Gecs".
-    4. [author note] Print the char and two strings. Talk about the
-    close relationship between chars and digits, as well as how to print a
-    formatted utf-8 character. (I don't know this either, will have to look it
-    up.)
-
-7. Multiline Strings
-    1. Print a multiline string.  
-    "I got lightning in my veins,
-     walk around like Frankenstein,
-     they did science on my face,
-     I'm the dumbest girl alive."
-
-8. Quiz 1
-    1. Introduce `size_t` on a const, with the problem being to make it a var.
-    2. Introduce initializing variables with NULL, and specifically {0} syntax
-    for initializing arrays (and which standard of C that was introduced in).
-    3. Use the `size_t` to index into a nonsense string, storing the right
-    chars in a new char array with a secret word revealed at the end.
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Misc
-
-### Prompt Structure
-1. ascii logo
-Realized it's almost a deadringer for ziglings! Change to a different style
-
-2. ascii art
-Clean up the kitty :3
-
-3. tagline
-Use vt100 escape codes to color output, check if there are output libraries that m
-ake this easier. Print something centered to the effect of:
-"Files didn't compile but don't worry! Your journey begins at <filename>..."
-
-4. list of "compiled <file>" "testing <file>"
-Look into testing frameworks for C
-
-5. Colored output telling the user to edit <next broken file> and rebuild
-
-### Build Systems
-An inescapable part of the C landscape is build systems, so they deserve some of
-challenges too. At the same time, I'm not interested in teaching how to write
-complicated Makefiles, CMakeList.txts and build.zigs. For now, show in the
-readme the 3 supported ways of building ceilings:
-
-1. Makefile
-make -f Makefile.vanilla && ./ceilings
-
-2. CMake
-cmake -B .
-make && ./ceilings
-
-3. zig cc
-zig build run
+```c
+/* Alright, you have your brand new 00_main.c ready to go, but how do you run
+ * it and make sure it works? Does C have a `cargo run` or some such? No! Or
+ * rather, it's got way too many! CMake, GNU Make, BSD Make, GCC, LLVM, Meson
+ * Ninja, Zig CC, Autotools, what the hell *are* all these things? I wanted to
+ * learn C, not these build systems! >:[
+ * 
+ * Fret not, we're gonna start as simple as possible and build up from there.
+ * There are many ways to compile and run C (and I'm going to assume you're on
+ * a real operating system like Linux, Windows with WSL or mingw, Mac, or BSD
+ * ;P) but we're only going to cover the ones you're most likely to encounter
+ * and use: GCC, Make, and CMake. So! Open a terminal window in this folder and
+ * run the following:
+ *
+ *     gcc 00_main.c
+ *
+ * If all goes well, you'll see a new file called `a.out`. That's the default
+ * output file name, and you can run it with:
+ *
+ *     ./a.out
+ *
+ * Note what happens if you change the number after the `return`, recompile,
+ * and run `echo $?` in bash or most shells (or `echo $status` for fish)
+```
