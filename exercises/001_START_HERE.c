@@ -2,7 +2,7 @@
 
  
 // Uh-oh! We forgot to include a return type for our main function 
-// (Hint: check line 11 and put the type before "main"
+// (Hint: check line 8 and put the type before "main"
 
 
 ___ main()
