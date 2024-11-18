@@ -12,8 +12,8 @@
 //
 // Common bitwidths of C's built in types:
 //
-//      word size  | sizeof(int) | char   | short | long | long long
-//      ------------------------------------------------------------
+//      word size  | sizeof(int) | char   | short | long | long long (or double)
+//      ------------------------------------------------------------------------
 //      64-bit     | 4 bytes     | 8 bits | 16b   | 32b  | 32b
 //
 // So how do I get a uint8? What about mutability? What's going on? :( 

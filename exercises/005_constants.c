@@ -15,8 +15,8 @@
 
 int main()
 {
-    const int someNum = 68;
-    int const pls = 1;
+    const int someNum = 68;  // "const West" - Legal but not recommended
+    int const pls = 1;       // "East const" - Preferred!
     pls += someNum;
     printf("Try as we might, we cannot add them!");
     return pls;
