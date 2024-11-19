@@ -14,6 +14,11 @@ set(CHAPTERS
     007_getchar
     008_getlines
     009_bonus_emoji
+    010_logical_operators
+    011_type_conversions
+    012_type_casting
+    013_arithmetic
+    014_bitwise_operators
 )
 
 foreach(_chapter ${CHAPTERS})

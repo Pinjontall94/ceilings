@@ -6,12 +6,7 @@ int main()
     // But these are indeed special and relate heavily to high-performance
     // and embedded uses C is famous for, so listen closely!
     //
-    // & (b)it(w)ise AND
-    // | bw inclusive OR
-    // ^ bw exclusive OR (XOR)
-    // << shift left
-    // >> shift right
-    // ~ bw inversion
+    // & | ^ << >> ~ 
 
     short bit_pattern = 0xFF;  // aka binary 1111 1111, aka decimal 15
     int result = 0x00;         // aka binary 0000 0000, aka decimal 0
