@@ -19,6 +19,7 @@ set(CHAPTERS
     012_type_casting
     013_arithmetic
     014_bitwise_operators
+    015_conditionals
 )
 
 foreach(_chapter ${CHAPTERS})
