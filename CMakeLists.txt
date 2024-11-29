@@ -20,6 +20,7 @@ set(CHAPTERS
     013_arithmetic
     014_bitwise_operators
     015_conditionals
+    016_functions
 )
 
 foreach(_chapter ${CHAPTERS})
