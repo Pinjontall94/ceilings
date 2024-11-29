@@ -12,6 +12,9 @@ int main()
     {
         // How would you make this complete in half the number of steps?
         ____;
+        // [challenge]: break out of this loop early when divisible by 10
+	if (counter _ 10 __ 0)
+	    ____;
         printf("while loop counter: %i\n", counter);
     }
 
