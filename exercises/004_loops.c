@@ -13,7 +13,10 @@ int main()
         // How would you make this complete in half the number of steps?
         ____;
         // [challenge]: break out of this loop early when divisible by 10
+	// [challenge]: skip every odd number by continuing the loop
 	if (counter _ 10 __ 0)
+	    ____;
+	else if (counter % 2 != 0)
 	    ____;
         printf("while loop counter: %i\n", counter);
     }
