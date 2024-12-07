@@ -1,4 +1,4 @@
-![ceilings marquis](marquis.png)
+![ceilings marquis](assets/marquis.png)
 
 # ceilings
 
