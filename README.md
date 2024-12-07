@@ -1,3 +1,5 @@
+![ceilings marquis](../assets/marquis.png)
+
 # ceilings
 
 A code-along project in C in the vein of 
