@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     // C has *most* of your typical arithmetic operators
     int uwu = 69, owo = 420;

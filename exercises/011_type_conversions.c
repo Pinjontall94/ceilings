@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     // C has a limited number of implicit type conversions, which are distinct
     // from type *casting*, which we'll cover later. 

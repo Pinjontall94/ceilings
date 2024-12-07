@@ -6,7 +6,7 @@ ___
 // tab in between "Hello" and "world!"?
 
 
-int main()
+int main(void)
 {
     printf("Hello world!\n");  // We can also make single-line comments with
     return 0;                  // What does changing this do? Try `echo $?`

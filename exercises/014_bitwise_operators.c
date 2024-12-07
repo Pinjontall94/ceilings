@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     // At long last, after this exercise we're finally done with operators!
     // But these are indeed special and relate heavily to high-performance

@@ -4,7 +4,7 @@
 // file, and use it on ipsum.txt in the same manner as the last challenge. You
 // should see the number "29" returned if you succeeded!
 
-int main()
+int main(void)
 {
     int character = 0, newline = 0;
 

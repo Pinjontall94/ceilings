@@ -13,7 +13,7 @@
 // when we get to pointers and (*gasp!*) strings, we'll stick to what's called
 // "East const"
 
-int main()
+int main(void)
 {
     const int someNum = 68;  // "const West" - Legal but not recommended
     int const pls = 1;       // "East const" - Preferred!

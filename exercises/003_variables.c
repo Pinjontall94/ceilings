@@ -4,7 +4,7 @@
 // unsigned and sometimes doubled flavors. Something to ponder now: why is a
 // character type present, but not a string?
 
-int main()
+int main(void)
 {
     // Numeric types (signed by default)
     ____ pointNumber = 8008.5;

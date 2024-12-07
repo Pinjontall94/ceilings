@@ -27,7 +27,7 @@
 // Lastly, if you really want a GUARANTEED width integer, check out stdint.h
 // for uint8_t, uint16_t, and friends
 
-int main()
+int main(void)
 {
     int unsigned const n = 64;
     n = n + 5;

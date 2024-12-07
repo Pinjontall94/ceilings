@@ -1,4 +1,4 @@
-int main()
+int main(void)
 {
     // Though C doesn't have native booleans (no seriously, it doesn't!), it
     // *does* come with the standard fare of relational and logical operators:

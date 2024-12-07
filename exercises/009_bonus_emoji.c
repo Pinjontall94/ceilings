@@ -6,7 +6,7 @@
 // using up till now. Don't worry if this takes some googling, or if you need
 // to come back later, this is a step up in difficulty!
 
-int main()
+int main(void)
 {
     // The correct hexademical value of the character is 1F97A
     set___(LC_ALL, "");

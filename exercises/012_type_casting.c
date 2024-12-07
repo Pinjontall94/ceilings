@@ -1,5 +1,5 @@
 #include <math.h>
-int main()
+int main(void)
 {
     // Ahhh, type-casting in C; the last bastion of *weakly* typed languages
     // in the modern world! C is statically typed, but it gives you immense

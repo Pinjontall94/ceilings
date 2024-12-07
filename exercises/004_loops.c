@@ -5,7 +5,7 @@
 //   - for loops
 // aaand the less common do-while
 
-int main()
+int main(void)
 {
     int counter = 5;
     ____ (counter < 20)
