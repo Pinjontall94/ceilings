@@ -21,6 +21,7 @@ set(CHAPTERS
     014_bitwise_operators
     015_conditionals
     016_functions
+    017_pointers
 )
 
 foreach(_chapter ${CHAPTERS})
