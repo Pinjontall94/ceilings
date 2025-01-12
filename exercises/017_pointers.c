@@ -65,7 +65,7 @@ int main(void)
     //   - else: grabs the value it's pointing to
 
     int wise_guys[6] = {2, 0, 4, 5, 1, 2};
-    int _get_a_loada_these = _wise_guys[_]; // Challenge: assign var to the
+    int _get_a_loada_these = _wise_guys[_]; // [Challenge]: assign var to the
                                             // address of wise_guys first
                                             // element
 

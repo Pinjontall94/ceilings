@@ -22,6 +22,8 @@ set(CHAPTERS
     015_conditionals
     016_functions
     017_pointers
+    018_pointers_contd
+    019_arrays
 )
 
 foreach(_chapter ${CHAPTERS})
