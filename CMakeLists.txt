@@ -27,5 +27,6 @@ set(CHAPTERS
 )
 
 foreach(_chapter ${CHAPTERS})
-    add_executable(${_chapter} ${EXERCISES_PATH}/${_chapter}.c)
+  add_executable(${_chapter} ${EXERCISES_PATH}/${_chapter}.c)
+  target_link_libraries(${_chapter} m)
 endforeach()

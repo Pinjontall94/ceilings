@@ -23,3 +23,6 @@ platforms. Please open an issue if something doesn't work! It really helps me :)
 5. Pay attention to the error, and fix the file `001_START_HERE.c` in the `exercises` folder
 6. Check your progress by running `./app` in the `build` folder
 7. Repeat steps 5 & 6 for each exercise until you complete Ceilings! :3
+
+## Roadmap
+* Emulate rustlings file watcher and rustlings binary operation
