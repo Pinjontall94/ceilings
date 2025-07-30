@@ -1,7 +1,12 @@
 cmake_minimum_required(VERSION 3.9)
 project(app) 
 add_executable(${PROJECT_NAME} src/${PROJECT_NAME}.c)
-add_compile_options(-Wall -Wextra -std=c2x)
+MESSAGE(CMAKE_<LANG>_COMPILER_ID)
+if (MSVC)
+    add_compile_options(/Wall /W4 /std=c2x)
+elseif ()
+    add_compile_options(-Wall -Wextra -std=c2x)
+endif()
 
 set(EXERCISES_PATH "exercises")
 set(CHAPTERS
