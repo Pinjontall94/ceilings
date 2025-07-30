@@ -56,3 +56,8 @@ zig-*
 ceilings
 /completed/
 /archive/
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite-journal
+/.vs/slnx.sqlite
+*.db
+/.vs/ProjectSettings.json

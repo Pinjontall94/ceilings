@@ -2,8 +2,11 @@ cmake_minimum_required(VERSION 3.9)
 project(app) 
 add_executable(${PROJECT_NAME} src/${PROJECT_NAME}.c)
 MESSAGE(CMAKE_<LANG>_COMPILER_ID)
+
+# Guard condition for microsoft's weird C compiler
 if (MSVC)
     add_compile_options(/Wall /W4 /std=c2x)
+# Otherwise, these are the typical cc flags
 elseif ()
     add_compile_options(-Wall -Wextra -std=c2x)
 endif()
