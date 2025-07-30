@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 3.10)
 project(app) 
 add_executable(${PROJECT_NAME} src/${PROJECT_NAME}.c)
-MESSAGE(CMAKE_<LANG>_COMPILER_ID)
+
 
 # Guard condition for microsoft's weird C compiler
 if (MSVC)
