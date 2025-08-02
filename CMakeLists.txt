@@ -7,7 +7,7 @@ add_executable(${PROJECT_NAME} src/${PROJECT_NAME}.c)
 if (MSVC)
     add_compile_options(/Wall /W4 /std=c2x)
 # Otherwise, these are the typical cc flags
-elseif ()
+else ()
     add_compile_options(-Wall -Wextra -std=c2x)
 endif()
 
